@@ -1,0 +1,98 @@
+{
+  "sha": "4de3715686d4aa521ca67703ee66a85879133682",
+  "node_id": "C_kwDNIULaACg0ZGUzNzE1Njg2ZDRhYTUyMWNhNjc3MDNlZTY2YTg1ODc5MTMzNjgy",
+  "commit": {
+    "author": {
+      "name": "Steve Polito",
+      "email": "stevepolito@hey.com",
+      "date": "2021-11-04T13:50:16Z"
+    },
+    "committer": {
+      "name": "Steve Polito",
+      "email": "stevepolito@hey.com",
+      "date": "2021-11-04T13:50:16Z"
+    },
+    "message": "Add new methods to guides.",
+    "tree": {
+      "sha": "97a97505f48885daf7e47d7502e5ccdd32f876d7",
+      "url": "https://api.github.com/repos/rails/rails/git/trees/97a97505f48885daf7e47d7502e5ccdd32f876d7"
+    },
+    "url": "https://api.github.com/repos/rails/rails/git/commits/4de3715686d4aa521ca67703ee66a85879133682",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null
+    }
+  },
+  "url": "https://api.github.com/repos/rails/rails/commits/4de3715686d4aa521ca67703ee66a85879133682",
+  "html_url": "https://github.com/rails/rails/commit/4de3715686d4aa521ca67703ee66a85879133682",
+  "comments_url": "https://api.github.com/repos/rails/rails/commits/4de3715686d4aa521ca67703ee66a85879133682/comments",
+  "author": {
+    "login": "stevepolitodesign",
+    "id": 5122678,
+    "node_id": "MDQ6VXNlcjUxMjI2Nzg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5122678?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/stevepolitodesign",
+    "html_url": "https://github.com/stevepolitodesign",
+    "followers_url": "https://api.github.com/users/stevepolitodesign/followers",
+    "following_url": "https://api.github.com/users/stevepolitodesign/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stevepolitodesign/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/stevepolitodesign/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/stevepolitodesign/subscriptions",
+    "organizations_url": "https://api.github.com/users/stevepolitodesign/orgs",
+    "repos_url": "https://api.github.com/users/stevepolitodesign/repos",
+    "events_url": "https://api.github.com/users/stevepolitodesign/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/stevepolitodesign/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "stevepolitodesign",
+    "id": 5122678,
+    "node_id": "MDQ6VXNlcjUxMjI2Nzg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5122678?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/stevepolitodesign",
+    "html_url": "https://github.com/stevepolitodesign",
+    "followers_url": "https://api.github.com/users/stevepolitodesign/followers",
+    "following_url": "https://api.github.com/users/stevepolitodesign/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stevepolitodesign/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/stevepolitodesign/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/stevepolitodesign/subscriptions",
+    "organizations_url": "https://api.github.com/users/stevepolitodesign/orgs",
+    "repos_url": "https://api.github.com/users/stevepolitodesign/repos",
+    "events_url": "https://api.github.com/users/stevepolitodesign/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/stevepolitodesign/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "52d3b76753a9c3ed996f395e9ef5f62d51291d54",
+      "url": "https://api.github.com/repos/rails/rails/commits/52d3b76753a9c3ed996f395e9ef5f62d51291d54",
+      "html_url": "https://github.com/rails/rails/commit/52d3b76753a9c3ed996f395e9ef5f62d51291d54"
+    }
+  ],
+  "stats": {
+    "total": 44,
+    "additions": 43,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "a6945ed9c120bf792e036363a5230e590eea57d7",
+      "filename": "guides/source/association_basics.md",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 1,
+      "changes": 44,
+      "blob_url": "https://github.com/rails/rails/blob/4de3715686d4aa521ca67703ee66a85879133682/guides/source/association_basics.md",
+      "raw_url": "https://github.com/rails/rails/raw/4de3715686d4aa521ca67703ee66a85879133682/guides/source/association_basics.md",
+      "contents_url": "https://api.github.com/repos/rails/rails/contents/guides/source/association_basics.md?ref=4de3715686d4aa521ca67703ee66a85879133682",
+      "patch": "@@ -1547,7 +1547,7 @@ The `has_many` association creates a one-to-many relationship with another model\n \n #### Methods Added by `has_many`\n \n-When you declare a `has_many` association, the declaring class automatically gains 17 methods related to the association:\n+When you declare a `has_many` association, the declaring class automatically gains 19 methods related to the association:\n \n * `collection`\n * [`collection<<(object, ...)`][`collection<<`]\n@@ -1566,6 +1566,8 @@ When you declare a `has_many` association, the declaring class automatically gai\n * [`collection.create(attributes = {})`][`collection.create`]\n * [`collection.create!(attributes = {})`][`collection.create!`]\n * [`collection.reload`][]\n+* [`collection.persisted`][`collection.persisted`]\n+* [`collection.new_records`][`collection.new_records`]\n \n \n In all of these methods, `collection` is replaced with the symbol passed as the first argument to `has_many`, and `collection_singular` is replaced with the singularized version of that symbol. For example, given the declaration:\n@@ -1596,6 +1598,8 @@ books.build(attributes = {}, ...)\n books.create(attributes = {})\n books.create!(attributes = {})\n books.reload\n+books.persisted\n+books.new_records\n ```\n \n [`collection<<`]: https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-3C-3C\n@@ -1611,6 +1615,8 @@ books.reload\n [`collection.reload`]: https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-reload\n [`collection.size`]: https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-size\n [`collection.where`]: https://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-where\n+[`collection.persisted`]: https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-persisted\n+[`collection.new_records`]: https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-new_records\n \n ##### `collection`\n \n@@ -1755,6 +1761,22 @@ The [`collection.reload`][] method returns a Relation of all of the associated o\n @books = @author.books.reload\n ```\n \n+##### `collection.persisted`\n+\n+The [`collection.persisted`][] method returns a single or array of objects from the collection that are saved in the database.\n+\n+```ruby\n+@books = @author.books.persisted\n+```\n+\n+##### `collection.new_records`\n+\n+The [`collection.new_records`][] method returns a single or array of objects from the collection that have not been saved in the database yet.\n+\n+```ruby\n+@books = @author.books.new_records\n+```\n+\n #### Options for `has_many`\n \n While Rails uses intelligent defaults that will work well in most situations, there may be times when you want to customize the behavior of the `has_many` association reference. Such customizations can easily be accomplished by passing options when you create the association. For example, this association uses two such options:\n@@ -2137,6 +2159,8 @@ When you declare a `has_and_belongs_to_many` association, the declaring class au\n * [`collection.create(attributes = {})`][`collection.create`]\n * [`collection.create!(attributes = {})`][`collection.create!`]\n * [`collection.reload`][]\n+* [`collection.persisted`][`collection.persisted`]\n+* [`collection.new_records`][`collection.new_records`]\n \n In all of these methods, `collection` is replaced with the symbol passed as the first argument to `has_and_belongs_to_many`, and `collection_singular` is replaced with the singularized version of that symbol. For example, given the declaration:\n \n@@ -2166,6 +2190,8 @@ assemblies.build(attributes = {}, ...)\n assemblies.create(attributes = {})\n assemblies.create!(attributes = {})\n assemblies.reload\n+assemblies.persisted\n+assemblies.new_records\n ```\n \n ##### Additional Column Methods\n@@ -2295,6 +2321,22 @@ The [`collection.reload`][] method returns a Relation of all of the associated o\n @assemblies = @part.assemblies.reload\n ```\n \n+##### `collection.persisted`\n+\n+The [`collection.persisted`][] method returns a single or array of objects from the collection that are saved in the database.\n+\n+```ruby\n+@assemblies = @part.assemblies.persisted\n+```\n+\n+##### `collection.new_records`\n+\n+The [`collection.new_records`][] method returns a single or array of objects from the collection that have not been saved in the database yet.\n+\n+```ruby\n+@assemblies = @part.assemblies.new_records\n+```\n+\n #### Options for `has_and_belongs_to_many`\n \n While Rails uses intelligent defaults that will work well in most situations, there may be times when you want to customize the behavior of the `has_and_belongs_to_many` association reference. Such customizations can easily be accomplished by passing options when you create the association. For example, this association uses two such options:"
+    }
+  ]
+}
